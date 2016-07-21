@@ -1,16 +1,11 @@
 #!/usr/bin/env python
 """
-Implement your own version of logistic regression with stochastic
-gradient descent.
-
 Author: Andrew Treadway
-Email : atreadway6@gatech.edu
 """
 
-#import collections
+
 import math
 
-#from sklearn.linear_model import SGDClassifier
 
 class LogisticRegressionSGD:
 
