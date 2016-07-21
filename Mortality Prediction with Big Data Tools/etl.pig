@@ -1,16 +1,4 @@
--- ***************************************************************************
--- TASK
--- Aggregate events into features of patient and generate training, testing data for mortality prediction.
--- Steps have been provided to guide you.
--- You can include as many intermediate steps as required to complete the calculations.
--- ***************************************************************************
 
--- ***************************************************************************
--- TESTS
--- To test, please change the LOAD path for events and mortality to ../../test/events.csv and ../../test/mortality.csv
--- 6 tests have been provided to test all the subparts in this exercise.
--- Manually compare the output of each test against the csv's in test/expected folder.
--- ***************************************************************************
 
 -- register a python UDF for converting data into SVMLight format
 REGISTER utils.py USING jython AS utils;
