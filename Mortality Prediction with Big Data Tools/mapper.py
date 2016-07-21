@@ -27,22 +27,3 @@ for line in sys.stdin:
 
 
 
-
-
-#for i in range(0,M):
-#    m = random.random()
-#    if m < r:
-#        for line in sys.stdin:
-#            key = random.randint(0, options.n_model - 1)
-#            value = line.strip()
-#            if len(value) > 0:
-#                print "%d\t%s" % (i, value)
-
-
-
-
-#for line in sys.stdin:
-#    key = random.randint(0, options.n_model - 1)
-#    value = line.strip()
-#    if len(value) > 0:
-#        print "%d\t%s" % (key, value)
