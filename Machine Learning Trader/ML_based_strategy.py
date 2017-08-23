@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Nov 28 03:11:59 2016
-
-@author: Andrew
-"""
 
 
 from RTLearner import RTLearner
